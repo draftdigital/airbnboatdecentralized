@@ -9,4 +9,3 @@ Airbnboat is developed within the standards of decentralized platforms so its op
 
 Current status: Preliminary development.
 Current Network: Polygon Mumbai.
-
