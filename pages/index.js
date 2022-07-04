@@ -1,12 +1,17 @@
-import Link from 'next/link';
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import Home from "./home/index";
+import styles from "../styles/Home.module.css";
 
-export default function Home() {
+export default function start() {
   return (
     <div className={styles.container}>
-      <Link href={"/rentals"}>
-        <a>Rentals</a>
-      </Link>
+      <Head>
+        <title>AirBnBoat</title>
+        <meta name="description" content="Air, Beach and Boats for rent" />
+        <link rel="icon" href="/faviconBoat.png" />
+      </Head>
+
+      <Home />
     </div>
-  )
+  );
 }
