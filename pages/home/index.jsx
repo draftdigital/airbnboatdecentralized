@@ -1,12 +1,12 @@
 import Image from "next/image";
 import styles from "../../styles/Home.module.css";
-import bg from "../../public/images/bayboat.jpeg";
+import bg from "../../public/images/bayboat2.jpeg";
 import logo from "../../public/images/logoAnB.png";
 
 export default function index() {
   return (
     <div className={styles.component}>
-      <div className={styles.gradientBg} />
+      
       <Image
         className={styles.backgroundImg}
         src={bg}
